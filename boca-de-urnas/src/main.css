@@ -1,0 +1,50 @@
+/* Este es el archivo de estilos que define el aspecto de la página web */
+
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .counters {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .counter {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+  }
+  
+  span {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
